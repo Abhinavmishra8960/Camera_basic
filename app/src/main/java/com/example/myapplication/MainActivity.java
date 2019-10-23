@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             }
             else if (resultCode==RESULT_CANCELED){
 
-                Toast.makeText(this,"cancelled",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"request cannot be processed",Toast.LENGTH_SHORT).show();
             }
 
         }
